@@ -1,0 +1,58 @@
+h1{
+    border: 3px solid #ffff ;
+    border-radius: 8px;
+    padding: 8px;
+    margin:8px ;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    padding: 8px;
+}
+.container{
+    background-color: rgba(71, 175, 239, 0.178);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid slategrey;
+    border-radius: 8px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #FFFF;
+    border: solid #FFFF;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(62, 172, 199);
+    color: aliceblue;
+    padding: 5px 18px;
+    border-color:  rgb(62, 172, 199);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+
+}

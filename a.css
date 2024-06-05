@@ -1,0 +1,33 @@
+body h1{
+    color: rgb(220, 6, 6);
+}
+body h2{
+    color: blue;
+    font-size:xx-large;
+    font-padding:top;
+    text-align:right;
+
+
+}
+body ol{
+    color: cyan;
+}
+a:hover{
+    color:rgb(212, 57, 106)
+}
+nav a{
+    text-decoration: none;
+    color: blueviolet;
+}
+table,tr,th,td{
+    border: 2px solid rgb(0, 0, 0);
+
+    padding: 5px;
+    border-spacing: 5px;
+}
+th{
+    background-color: aqua;
+}
+td{
+    background-color: brown;
+}
